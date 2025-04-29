@@ -13,7 +13,7 @@ export default async function handler(req, res) {
       return res.status(405).json({ message: "Only POST requests are allowed" });
     }
   
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey = 'AIzaSyAWhZUZHS0nSFLcUTsFmgD3K0AsB7hPF6U';
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
   
     try {
