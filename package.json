@@ -1,0 +1,7 @@
+{
+    "name": "gemini-api",
+    "version": "1.0.0",
+    "main": "api/api.js",
+    "license": "MIT"
+  }
+  
